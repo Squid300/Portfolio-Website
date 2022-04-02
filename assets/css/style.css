@@ -1,0 +1,103 @@
+*{
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 6px;
+    border-style: ridge;
+    border-color: black;
+}
+
+h1{
+    font-size: 175%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    padding-right: 10px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#meat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#aboutMe{
+    background-color: blueviolet;
+    margin-top: 6px;
+    margin-right: 6px;
+    padding: 10px;
+    border-style: ridge;
+    border-color: black;
+}
+
+#aboutMe img{
+    max-width: 200px;
+}
+
+#portfolio{
+    background-color: blueviolet;
+    margin-top: 6px;
+    padding: 10px;
+    border-style: ridge;
+    border-color: black;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#portfolio h2{
+    text-align: center;
+    position: absolute;
+}
+
+#portfolio div{
+    width: 200px;
+    height: 200px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 25px;
+    margin: 6px;
+    text-align: center;
+    background-image: url("../../assets/imgs/4036266347_9862579d68_b.jpg");
+}
+
+#project1{
+    min-width: 500px;
+    min-height: 400px;
+    background-image: url("../../assets/imgs/Website-Image.jpg");
+}
+
+#skills{
+    background-color: blueviolet;
+    margin-top: 6px;
+    border-style: ridge;
+    border-color: black;
+}
+
+#skills h2{
+    text-align: center;
+}
