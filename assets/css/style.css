@@ -74,7 +74,24 @@ nav a{
     position: absolute;
 }
 
-#portfolio div{
+#project1{
+    min-width: 500px;
+    min-height: 400px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 25px;
+    margin: 6px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px white;
+    background-image: url("../../assets/imgs/Website-Image.jpg");
+}
+
+#project2,
+#project3,
+#project4,
+#project5,
+#project6{
     width: 200px;
     height: 200px;
     border-style: ridge;
@@ -82,13 +99,9 @@ nav a{
     border-radius: 25px;
     margin: 6px;
     text-align: center;
+    text-shadow: 0px 0px 5px white;
+    /* "Code on the Europython 2009 bag" by Thomas Guest is marked with CC BY 2.0. To view the terms, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse' */
     background-image: url("../../assets/imgs/4036266347_9862579d68_b.jpg");
-}
-
-#project1{
-    min-width: 500px;
-    min-height: 400px;
-    background-image: url("../../assets/imgs/Website-Image.jpg");
 }
 
 #skills{
