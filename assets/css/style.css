@@ -1,3 +1,4 @@
+/* sets global variables for website */
 *{
     font-family: sans-serif, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -9,6 +10,7 @@ body{
     height: 100%;
 }
 
+/* turns header and child elements into flexbox and adds basic styling */
 header{
     display: flex;
     justify-content: space-between;
@@ -23,6 +25,7 @@ h1{
     font-size: 175%;
 }
 
+/* positions nav element and removes any list styling */
 nav ul{
     display: flex;
     justify-content: space-between;
@@ -36,6 +39,7 @@ nav a{
     color: white;
 }
 
+/* setting up flexbox for "meat" of webpage */
 #meat{
     display: flex;
     flex-direction: row;
@@ -44,6 +48,7 @@ nav a{
     
 }
 
+/* styles about me section */
 #aboutMe{
     background-color: blueviolet;
     margin-top: 6px;
@@ -57,6 +62,7 @@ nav a{
     max-width: 200px;
 }
 
+/* styles portfolio section and sets up flexbox for projects inside */
 #portfolio{
     background-color: blueviolet;
     margin-top: 6px;
@@ -74,6 +80,7 @@ nav a{
     position: absolute;
 }
 
+/* Styling for project divs inside porfolio section.*/
 #project1{
     min-width: 500px;
     min-height: 400px;
@@ -104,6 +111,7 @@ nav a{
     background-image: url("../../assets/imgs/4036266347_9862579d68_b.jpg");
 }
 
+/* sets up bottom section with skills */
 #skills{
     background-color: blueviolet;
     margin-top: 6px;
