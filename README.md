@@ -1,6 +1,6 @@
 # Portfolio-Website
 
-![Portfolio mockup](/assets/imgs/Screenshot%202022-04-02%20214729.jpg?raw=true)
+![Portfolio mockup](/assets/imgs/portfolioWebsite.jpg?raw=true "portfolio website image")
 
 This is a static HTML page with CSS styling
 This homework assignment had us coding a first draft of our portfolio website. Made using the basic HTML CSS and flexbox we've learned in the first 2 weeks.
